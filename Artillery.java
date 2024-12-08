@@ -116,7 +116,7 @@ public class Artillery extends Character {
     private class ArtilleryProjectile {
         private double x, y;
         private final double targetX, targetY;
-        private final double speed = 30.0; ///////////////////////////////////////////////////////////////////////
+        private final double speed = 40.0; ///////////////////////////////////////////////////////////////////////
 
         public ArtilleryProjectile(double startX, double startY, double targetX, double targetY) {
             this.x = startX;
